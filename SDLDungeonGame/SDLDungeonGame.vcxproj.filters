@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Sprite Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Sprite Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>Gamecore/Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Gamecore/Main</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h">
+      <Filter>Sprite Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Sprite Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>Gamecore/Main</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sprite Classes">
+      <UniqueIdentifier>{bc491ce5-14f6-4b69-85a2-bf9e664767b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gamecore/Main">
+      <UniqueIdentifier>{7da5d213-8791-43c2-bdf7-86e0e63904dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
